@@ -1,0 +1,1 @@
+function ajax(e,t,n){if(window.XMLHttpRequest)var a=new XMLHttpRequest;else var a=new ActiveXObject("Microsoft.XMLHTTP");a.open("GET",e,!0),a.send(),a.onreadystatechange=function(){4==a.readyState&&(200==a.status?t(a.responseText):n&&n())}}
